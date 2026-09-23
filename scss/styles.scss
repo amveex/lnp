@@ -1,0 +1,17 @@
+// temporary code
+html { background: var(--dark); }
+
+.header {
+    &__logoLink,
+    &__navLink,
+    &__tgLink {
+        font-size: 32px;
+        color: var(--white);
+        transition: 0.25s;
+        &:hover {
+            text-shadow: 0px 0px 25px var(--white);
+        }
+    }
+
+    &__navLink { font-size: 16px; }
+}

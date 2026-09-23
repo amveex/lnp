@@ -1,0 +1,15 @@
+html {
+  background: var(--dark);
+}
+
+.header__logoLink, .header__navLink, .header__tgLink {
+  font-size: 32px;
+  color: var(--white);
+  transition: 0.25s;
+}
+.header__logoLink:hover, .header__navLink:hover, .header__tgLink:hover {
+  text-shadow: 0px 0px 25px var(--white);
+}
+.header__navLink {
+  font-size: 16px;
+}
