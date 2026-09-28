@@ -17,9 +17,10 @@ html { background: var(--dark); }
 }
 
 .one {
-    background-image: url(/lnp/img/main.png);
+    background-image: url(../img/main.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
     .info {
         &__text {
