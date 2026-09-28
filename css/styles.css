@@ -13,3 +13,14 @@ html {
 .header__navLink {
   font-size: 16px;
 }
+
+.one {
+  background-image: url(/lnp/img/main.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.one .info__text {
+  color: var(--white);
+  font-size: 100px;
+  line-height: 100px;
+}

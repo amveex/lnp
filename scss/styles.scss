@@ -15,3 +15,17 @@ html { background: var(--dark); }
 
     &__navLink { font-size: 16px; }
 }
+
+.one {
+    background-image: url(/lnp/img/main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .info {
+        &__text {
+            color: var(--white);
+            font-size: 100px;
+            line-height: 100px;
+        }
+    }
+}
