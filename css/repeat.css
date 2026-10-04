@@ -3,3 +3,50 @@
   --beige: #FBD784;
   --dark: #0B1D26;
 }
+
+.content__info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.content__head {
+  font-size: 20px;
+  color: var(--beige);
+  letter-spacing: 6px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.content__head::before {
+  content: "";
+  background: var(--beige);
+  height: 2px;
+  width: 70px;
+}
+.content__topic {
+  font-size: 50px;
+  color: var(--white);
+}
+.content__desc {
+  font-size: 16px;
+  color: var(--white);
+  line-height: 32px;
+}
+.content__link a {
+  font-size: 20px;
+  color: var(--beige);
+}
+.content__image {
+  opacity: 0.66;
+  border-radius: 20px;
+  width: 600px;
+  height: 700px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content--reverse {
+  flex-direction: row-reverse;
+}
